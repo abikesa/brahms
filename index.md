@@ -1,11 +1,5 @@
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P-LUarzcHGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-> *Kivengere was married to Merab and they had four daughters named Faith [Peace, Joy](https://en.wikipedia.org/wiki/Festo_Kivengere#Family), Hope and Charity*
-
-[POTUSes](http://www.script-o-rama.com/movie_scripts/g/guess-whos-coming-to-dinner-script.html)
-
-[More remote overtones of the harmonic series](https://www.amazon.com/Guess-Coming-Dinner-Spencer-Tracy/dp/B008Y704R0/ref=sr_1_1?crid=2CXWENTWWXBIO&dib=eyJ2IjoiMSJ9._9Lw21q7gYDXxTa8SZ5szMbeWe0B6pdtuCQ5WWzRbU3uhk3wm2K9s1IrNERaut4F24MAeeTnRjUPa6XRRvY8Ku9Zyqwi8-_LoKhJtlhg7B1YKTRPdHNKACkhk1plCFW3y-MoxE8RsNhZb7nqYLtPOB4aYC75NICKIUKl7g5gm0w6NdHXBw7XprF5rrwdpbDdwRUlAqMTlBxY5NNbbAic1vZDTvCSy0USyj_6rxejp54.BJNnePZ6qSD-IJaypeAz6Ki_nviNd62dW7lw3Xb3_UQ&dib_tag=se&keywords=guess+who%27s+coming+to+dinner&qid=1716930741&s=instant-video&sprefix=guess+who%2Cinstant-video%2C129&sr=1-1)
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -22,9 +16,7 @@ MathJax.Hub.Config({
 
 > *[Letters to Abigail](https://www.masshist.org/digitaladams/archive/doc?id=L17800512jasecond)*
 
-![](https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg)
-
-> Apple has built a reputation for prioritizing user [privacy](https://heinonline.org/HOL/LandingPage?handle=hein.journals/walq99&div=26&id=&page=) and [security](https://ieeexplore.ieee.org/abstract/document/9066964)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P-LUarzcHGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Activation Function, $Q$: 1st, 3rd, 5th, [♭♭7th](https://en.wikipedia.org/wiki/Chord_notation#Chord_quality), 9th  
 - [Hunter](https://en.wikipedia.org/wiki/Luis_Palau)-[gatherer](https://en.wikipedia.org/wiki/Eurofest_%2775)/`War`: spiritual teachings  (I)
