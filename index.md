@@ -14,6 +14,8 @@ MathJax.Hub.Config({
 });
 </script>
 
+<iframe src="https://www.youtube.com/embed/Lu3T0f-H3JI" width="100%" height="600px" style="border:none;"></iframe>
+
 > *[Letters to Abigail](https://www.masshist.org/digitaladams/archive/doc?id=L17800512jasecond)*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P-LUarzcHGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
