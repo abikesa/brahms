@@ -14,11 +14,41 @@ MathJax.Hub.Config({
 });
 </script>
 
-<iframe src="https://www.youtube.com/embed/Lu3T0f-H3JI" width="100%" height="600px" style="border:none;"></iframe>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: space-around; /* Adjust the spacing between iframes */
+            gap: 20px; /* Add a gap between iframes */
+            padding: 20px; /* Add padding around the container */
+        }
+        .video-container iframe {
+            width: 30%; /* Adjust the width of each iframe */
+            height: 300px; /* Adjust the height as needed */
+            border: none; /* Remove the border */
+        }
+        body {
+            margin: 0; /* Remove margin from body */
+            padding: 0; /* Remove padding from body */
+            background-color: #ffffff; /* Ensure the background is white */
+        }
+    </style>
+    <title>Re::Melody, Chords, Rhythm</title>
+</head>
+<body>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/P-LUarzcHGwY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Lu3T0f-H3JI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/dmZpDa2FLYQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
 
 > *[Letters to Abigail](https://www.masshist.org/digitaladams/archive/doc?id=L17800512jasecond)*
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P-LUarzcHGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Activation Function, $Q$: 1st, 3rd, 5th, [♭♭7th](https://en.wikipedia.org/wiki/Chord_notation#Chord_quality), 9th  
 - [Hunter](https://en.wikipedia.org/wiki/Luis_Palau)-[gatherer](https://en.wikipedia.org/wiki/Eurofest_%2775)/`War`: spiritual teachings  (I)
