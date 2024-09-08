@@ -52,6 +52,24 @@ _Henry V_. The opening sequence after the prologue of Kenny Branagh's version `a
                                                             /
                                                             3. Farmer-Emotion
 
+```{figure} https://media.istockphoto.com/id/1432965053/vector/primitive-tribe-cave-people-stone-age-primal-painting-ancient-tribesmen-rock-drawing-man-and.jpg?s=2048x2048&w=is&k=20&c=rpqn7iCZW0Dy1mCQgt8NxQ4OnBQY8u4q7j2rcshodcQ=
+---
+height: 1
+width: 1
+name: hunter-gatherer family
+alt: An
+---
+_Uganda_. The hunter-gatherer relies on their `sensory` to decide when to go hunting and gathering. It's all about hunger. But if `memory` of harships serves you right, as population growth and competition for land emerges, then sowing seed and bringing in the shieves becomes a communal obligation season in and out. Later the slave will toil to produce a surplus for the conquering tribe and this will encode an unforgettable `emotional` imprint, and history itself will be writ & this will never be forgotten. But soon the very essence of farming will be codified and made programmable, so that `machines` and an industrial revolution take over this business. This is _The Matrix_. With humans being dispensed with from manual labor, they emerge as a critical source of energy in a world that hungers for "compute". This is `openAI`. And, thus, is the stage set to wax lyrical about the `ethical` implications of the AI revolution. This is the world of 2024 and beyond.
+```
+
+<iframe src="https://www.youtube.com/embed/ktkV0N0Oask" width="100%" height="300" style="border:none;"></iframe>
+
+                          1. Inputs-Cost 
+                                        \ 
+            2. Processes-Operations ->  4. Collective-Zeitgeist -> 5. Energy-Sustainable -> 6. Space-Exploration
+                                        /
+                                        3. Outputs/Value -> Feedback
+
 ```{figure} ../../figures/blanche.png
 ---
 height: 1
@@ -59,4 +77,5 @@ width: 1
 name: data-privacy
 alt: An
 ---
-_Uganda_. The hunter-gatherer relies on their `sensory` to decide when to go hunting and gathering. It's all about hunger. But if `memory` of harships serves you right, as population growth and competition for land emerges, then sowing seed and bringing in the shieves becomes a communal obligation season in and out. Later the slave will toil to produce a surplus for the conquering tribe and this will encode an unforgettable `emotional` imprint, and history itself will be writ & this will never be forgotten. But soon the very essence of farming will be codified and made programmable, so that `machines` and an industrial revolution take over this business. This is _The Matrix_. With humans being dispensed with from manual labor, they emerge as a critical source of energy in a world that hungers for "compute". This is `openAI`. And, thus, is the stage set to wax lyrical about the `ethical` implications of the AI revolution. This is the world of 2024 and beyond.
+_Elon Musk's Outlook_. Business/`Grounding`: Inputs/Costs, Processes/Manufacturing, Outputs/Value. Speculation/`Abstraction`: Internet 🛜 Paypal, Energy 🔋 Tesla, Space 🚀 X. Rather remarkable how closely they resemble Sevo's `decoding` of Africa's constraints in general & Uganda's specifically in the context of the prohibitive costs of borrowing needed for transitioning the economies from Peasant activity to one of a reliable global partner in Farming, Manufacturing, Electricity & Railways. 
+```
