@@ -457,14 +457,14 @@ document.write(`
 <span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
         <span class="s1">&#39;Pre-Input&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Firm&#39;</span><span class="p">,</span> <span class="s1">&#39;Tactful&#39;</span><span class="p">,</span> <span class="s1">&#39;Sound&#39;</span><span class="p">,</span>   <span class="p">],</span>
-        <span class="s1">&#39;Yellowstone&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Je ne sais quoi</span><span class="se">\n</span><span class="s1"> Nostalgia&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Input&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Anarchy&#39;</span><span class="p">,</span> <span class="s1">&#39;Monarchy&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Yellowstone&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Je ne sais quoi</span><span class="se">\n</span><span class="s1"> Nostalgia</span><span class="se">\n</span><span class="s1"> Gone with Wind&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Input&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Yankee&#39;</span><span class="p">,</span> <span class="s1">&#39;Confederacy&#39;</span><span class="p">],</span>
         <span class="s1">&#39;Hidden&#39;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="s1">&#39;Risk&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;Oligarchy&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;Peers&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Disturbing&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Law&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Peace&#39;</span><span class="p">,</span>
         <span class="p">],</span>
-        <span class="s1">&#39;Output&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Existential&#39;</span><span class="p">,</span> <span class="s1">&#39;Deploy&#39;</span><span class="p">,</span> <span class="s1">&#39;Fees&#39;</span><span class="p">,</span> <span class="s1">&#39;Client&#39;</span><span class="p">,</span> <span class="s1">&#39;Open&#39;</span><span class="p">,</span>    <span class="p">]</span>
+        <span class="s1">&#39;Output&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Industrial&#39;</span><span class="p">,</span> <span class="s1">&#39;Future&#39;</span><span class="p">,</span> <span class="s1">&#39;Prosecuted&#39;</span><span class="p">,</span> <span class="s1">&#39;History&#39;</span><span class="p">,</span> <span class="s1">&#39;Slavery&#39;</span><span class="p">,</span>    <span class="p">]</span>
     <span class="p">}</span>
 
 <span class="c1"># Define weights for the connections</span>
@@ -492,27 +492,27 @@ document.write(`
 
 <span class="c1"># Assign colors to nodes</span>
 <span class="k">def</span> <span class="nf">assign_colors</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">layer</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Je ne sais quoi</span><span class="se">\n</span><span class="s1"> Nostalgia&#39;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Je ne sais quoi</span><span class="se">\n</span><span class="s1"> Nostalgia</span><span class="se">\n</span><span class="s1"> Gone with Wind&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;yellow&#39;</span>
     <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Sound&#39;</span><span class="p">,</span> <span class="p">]:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Tactful&#39;</span><span class="p">,</span> <span class="p">]:</span>
         <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-    <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Monarchy&#39;</span><span class="p">:</span>
+    <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Confederacy&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Hidden&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Peers&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Peace&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Oligarchy&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Law&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Risk&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Disturbing&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Output&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Open&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Slavery&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Client&#39;</span><span class="p">,</span> <span class="s1">&#39;Fees&#39;</span><span class="p">,</span> <span class="s1">&#39;Deploy&#39;</span><span class="p">]:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;History&#39;</span><span class="p">,</span> <span class="s1">&#39;Prosecuted&#39;</span><span class="p">,</span> <span class="s1">&#39;Future&#39;</span><span class="p">]:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Existential&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Industrial&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
     <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>  <span class="c1"># Default color</span>
 
@@ -580,7 +580,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../_images/dcf22153400cc3c3d0953f4967a8d746af9e8226d5803fb3e551a54a9431c630.png" src="../_images/dcf22153400cc3c3d0953f4967a8d746af9e8226d5803fb3e551a54a9431c630.png" />
+<img alt="../_images/f1a074857bf1d6f49436910f8c4e58c00decb23653cb7d458b2c5ea26f569d7f.png" src="../_images/f1a074857bf1d6f49436910f8c4e58c00decb23653cb7d458b2c5ea26f569d7f.png" />
 </div>
 </div>
 <figure class="align-default" id="id2">
