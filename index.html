@@ -471,14 +471,14 @@ document.write(`
 <span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
         <span class="s1">&#39;Pre-Input&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Life&#39;</span><span class="p">,</span><span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Sound&#39;</span><span class="p">,</span> <span class="s1">&#39;Tactful&#39;</span><span class="p">,</span> <span class="s1">&#39;Firm&#39;</span><span class="p">,</span> <span class="p">],</span>
-        <span class="s1">&#39;Yellowstone&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Value&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Input&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Supply&#39;</span><span class="p">,</span> <span class="s1">&#39;Demand&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Yellowstone&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Nexus&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Input&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;Feed &amp; Breed&#39;</span><span class="p">],</span>
         <span class="s1">&#39;Hidden&#39;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="s1">&#39;Freemarket&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;Cartel&#39;</span><span class="p">,</span>
-            <span class="s1">&#39;Monopoly&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Sympathetic&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Acetylcholine&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Parasympathetic&#39;</span><span class="p">,</span>
         <span class="p">],</span>
-        <span class="s1">&#39;Output&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Differentiation&#39;</span><span class="p">,</span> <span class="s1">&#39;Higher&#39;</span><span class="p">,</span> <span class="s1">&#39;Quality&#39;</span><span class="p">,</span> <span class="s1">&#39;Lower&#39;</span><span class="p">,</span> <span class="s1">&#39;Uniformity&#39;</span><span class="p">,</span>    <span class="p">]</span>
+        <span class="s1">&#39;Output&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Venoms&#39;</span><span class="p">,</span> <span class="s1">&#39;Toxins&#39;</span><span class="p">,</span> <span class="s1">&#39;Nerve Agents&#39;</span><span class="p">,</span> <span class="s1">&#39;Cognition&#39;</span><span class="p">,</span> <span class="s1">&#39;Microbes&#39;</span><span class="p">,</span>    <span class="p">]</span>
     <span class="p">}</span>
 
 <span class="c1"># Define weights for the connections</span>
@@ -506,25 +506,25 @@ document.write(`
 
 <span class="c1"># Assign colors to nodes</span>
 <span class="k">def</span> <span class="nf">assign_colors</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">layer</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Value&#39;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Nexus&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;yellow&#39;</span>
     <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Sound&#39;</span><span class="p">,</span> <span class="s1">&#39;Tactful&#39;</span><span class="p">,</span> <span class="s1">&#39;Firm&#39;</span><span class="p">]:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-    <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Demand&#39;</span><span class="p">:</span>
+    <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Feed &amp; Breed&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Hidden&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Monopoly&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Parasympathetic&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Cartel&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Acetylcholine&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Freemarket&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Sympathetic&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Output&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Uniformity&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Microbes&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Lower&#39;</span><span class="p">,</span> <span class="s1">&#39;Quality&#39;</span><span class="p">,</span> <span class="s1">&#39;Higher&#39;</span><span class="p">]:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Cognition&#39;</span><span class="p">,</span> <span class="s1">&#39;Nerve Agents&#39;</span><span class="p">,</span> <span class="s1">&#39;Toxins&#39;</span><span class="p">]:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Differentiation&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Venoms&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
     <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>  <span class="c1"># Default color</span>
 
@@ -592,13 +592,13 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="_images/a39300f8d9282680a5777775f5c0601eded2cc0262ccdf0c4fe8b2276e3f75d0.png" src="_images/a39300f8d9282680a5777775f5c0601eded2cc0262ccdf0c4fe8b2276e3f75d0.png" />
+<img alt="_images/9428aac92ce318689311384ab2537daae93ff83004e6a135b15592a420ac2fd6.png" src="_images/9428aac92ce318689311384ab2537daae93ff83004e6a135b15592a420ac2fd6.png" />
 </div>
 </div>
 <figure class="align-default" id="id3">
 <a class="reference internal image-reference" href="_images/blanche.png"><img alt="_images/blanche.png" src="_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text"><em>Paul A. Samuelson</em>. One occassion of 70th Birthday Festschrift Conference</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text"><em>Acetylcholine</em>. Partly because of acetylcholine’s muscle-activating function, but also because of its functions in the autonomic nervous system and brain, many important drugs exert their effects by altering cholinergic transmission. Numerous venoms and toxins produced by plants, animals, and bacteria, as well as chemical nerve agents such as sarin, cause harm by inactivating or hyperactivating muscles through their influences on the neuromuscular junction. Drugs that act on muscarinic acetylcholine receptors, such as atropine, can be poisonous in large quantities, but in smaller doses they are commonly used to treat certain heart conditions and eye problems.[7][8] Scopolamine, or diphenhydramine, which also act mainly on muscarinic receptors in an inhibitory fashion in the brain (especially the M1 receptor) can cause delirium, hallucinations, and amnesia through receptor antagonism at these sites. So far as of 2016, only the M1 receptor subtype has been implicated in anticholinergic delirium.[9] The addictive qualities of nicotine are derived from its effects on nicotinic acetylcholine receptors in the brain.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="toctree-wrapper compound">
