@@ -381,7 +381,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -397,6 +399,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#network"></a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -407,14 +417,22 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="attribute">
-<h1>Attribute<a class="headerlink" href="#attribute" title="Permalink to this heading">#</a></h1>
-<iframe src="https://www.youtube.com/embed/YtPaZsasmNA?start=1100" style="width:100%;height:500px;"></iframe>
-<figure class="align-default" id="id1">
-<a class="reference internal image-reference" href="../../_images/blanche.png"><img alt="../../_images/blanche.png" src="../../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 21 </span><span class="caption-text"><em>AlphaFold 2 (Static Protein Configuration) vs. AlphaFold 3 (Dynamic Physiologic Issues)</em>.</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
+<span id="id1"></span><h1>Attribute<a class="headerlink" href="#attribute" title="Permalink to this heading">#</a></h1>
+<p>Ganglia are collections of nerve cells that act as relay points between neurological structures in the body. There are three major types of ganglia in vertebrates:</p>
+<ul class="simple">
+<li><p>Dorsal root ganglia: Also known as spinal ganglia, these contain the cell bodies of sensory neurons.</p></li>
+<li><p>Cranial nerve ganglia: Contain the cell bodies of cranial nerve neurons.</p></li>
+<li><p>Autonomic ganglia: Contain the cell bodies of autonomic nerves.</p></li>
+</ul>
+<section id="network">
+<span id="id2"></span><h2><a class="headerlink" href="#network" title="Permalink to this heading">#</a></h2>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../../index.html#nexus"><span class="std std-ref">Acetylcholine</span></a></p></li>
+<li><p><a class="reference internal" href="part2_2.html#epilogue"><span class="std std-ref">Epilogue</span></a></p></li>
+</ul>
+</div>
 <div class="cell tag_hide-input docutils container">
 <details class="hide above-input">
 <summary aria-label="Toggle hidden content">
@@ -537,7 +555,7 @@ document.write(`
     <span class="p">)</span>
     <span class="n">edge_labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_edge_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;weight&#39;</span><span class="p">)</span>
     <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">v</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">edge_labels</span><span class="o">.</span><span class="n">items</span><span class="p">()})</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Sensory, Dorsal-Root/Cranial Nerve, Central, Autonomic, Postsynaptic&quot;</span><span class="p">)</span>
     
     <span class="c1"># Save the figure to a file</span>
     <span class="c1"># plt.savefig(&quot;figures/logo.png&quot;, format=&quot;png&quot;)</span>
@@ -551,15 +569,16 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../_images/91df5be082386c67218ba17c9efaa536afd8754b9e111dc3c5fb3796fad9a1bf.png" src="../../_images/91df5be082386c67218ba17c9efaa536afd8754b9e111dc3c5fb3796fad9a1bf.png" />
+<img alt="../../_images/968319181d80d38f761fa8d1814824c0daed6bc417a360e81da598fee70a0905.png" src="../../_images/968319181d80d38f761fa8d1814824c0daed6bc417a360e81da598fee70a0905.png" />
 </div>
 </div>
-<figure class="align-default" id="id2">
+<figure class="align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/blanche.png"><img alt="../../_images/blanche.png" src="../../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 22 </span><span class="caption-text">The structure of this neural network metaphorically mirrors a tree’s anatomy, highlighting the elegance and interconnectedness of its layers. Each layer represents a crucial element in the system’s growth, function, and balance, much like the natural components of a tree. This layered structure beautifully captures the organic interplay between grounding, growth, and emergence, showcasing the elegance of neural networks as metaphors for natural and systemic complexity. We also transform the original essay into a new interpretation inspired by the neural network structure, shifting the focus to a dynamic, living ecosystem, intertwining biological, philosophical, and socio-historical themes while maintaining the metaphorical depth. We hereby integrate the metaphorical essence of the original essay but transform its tone and structure to focus on life as an ecosystem, bridging natural and conceptual systems.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">The structure of this neural network metaphorically mirrors a tree’s anatomy, highlighting the elegance and interconnectedness of its layers. Each layer represents a crucial element in the system’s growth, function, and balance, much like the natural components of a tree. This layered structure beautifully captures the organic interplay between grounding, growth, and emergence, showcasing the elegance of neural networks as metaphors for natural and systemic complexity. We also transform the original essay into a new interpretation inspired by the neural network structure, shifting the focus to a dynamic, living ecosystem, intertwining biological, philosophical, and socio-historical themes while maintaining the metaphorical depth. We hereby integrate the metaphorical essence of the original essay but transform its tone and structure to focus on life as an ecosystem, bridging natural and conceptual systems.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -616,6 +635,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#network"></a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
